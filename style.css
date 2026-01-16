@@ -13,57 +13,57 @@ header {
   padding: 20px;
   margin-bottom: 27.5px;
   border-bottom: 2px solid #eceded;
+}
 
-  .header {
-    display: flex;
-  }
+.header {
+  display: flex;
+}
 
-  .logo {
-    font-size: 45px;
-    font-weight: 700;
-    margin-left: 20px;
-  }
-  /* ``search_box */
-  .search {
-    width: 357px;
-    height: 60px;
-    background-color: #ecf3f5;
-    margin-left: 140px;
-    border: 0px;
-    border-radius: 10px;
-  }
+.logo {
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+/* ``search_box */
+.search {
+  width: 357px;
+  height: 60px;
+  background-color: #ecf3f5;
+  margin-left: 140px;
+  border: 0px;
+  border-radius: 10px;
+}
 
-  .search::placeholder {
-    color: #89928e;
-    padding: 25px;
-    font-weight: 400;
-    font-family: Quicksand;
-    font-size: 15px;
-  }
+.search::placeholder {
+  color: #89928e;
+  padding: 25px;
+  font-weight: 400;
+  font-family: Quicksand;
+  font-size: 15px;
+}
 
-  .search_box input:focus {
-    color: #4a5c2f;
-    border: solid #4a5c2f;
-    font-size: 15px;
-    outline: none;
-    padding-left: 25px;
-    font-family: Quicksand;
-  }
+.search_box input:focus {
+  color: #4a5c2f;
+  border: solid #4a5c2f;
+  font-size: 15px;
+  outline: none;
+  padding-left: 25px;
+  font-family: Quicksand;
+}
 
-  /* ``date_text */
-  .date {
-    display: flex;
-    width: 223px;
-    height: 20px;
-    font-weight: 400;
-    font-size: 15px;
-    margin: 20px 21px 20px 750px;
-  }
+/* ``date_text */
+.date {
+  display: flex;
+  width: 223px;
+  height: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 20px 21px 20px 750px;
+}
 
-  .header .date::before {
-    content: url(Vector.png);
-    margin: 2px 7px 2px 9px;
-  }
+.header .date::before {
+  content: url(Vector.png);
+  margin: 2px 7px 2px 9px;
 }
 
 .add {
@@ -82,99 +82,102 @@ button:active {
   transform: scale(0.95);
 }
 
-main {
-  .card_wrapper {
+/* ``main  */
+
+.card_wrapper {
+  display: flex;
+  /* margin-left: 125.5px; */
+  width: 928px;
+  margin: auto;
+ 
+}
+
+ h3 {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 8px 35px 0px 36px;
+  }
+
+  .category {
+    margin: 15px 40px 12px 11px;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+
+  .category_wrapper {
     display: flex;
-    /* margin-left: 125.5px; */
-    width: 928px;
-    margin: auto;
-    h3 {
-      display: inline-block;
-      font-size: 17px;
-      font-weight: 500;
-      text-transform: uppercase;
-      margin: 8px 35px 0px 36px;
-    }
-
-    .category {
-      margin: 15px 40px 12px 11px;
-      font-weight: 500;
-      font-size: 12px;
-      text-transform: uppercase;
-      display: inline-block;
-    }
-
-    .category_wrapper {
-      display: flex;
-    }
-    .wings {
-      height: 23px;
-      margin-top: 9px;
-    }
-
-    .single_card {
-      width: 203px;
-      height: 214px;
-      margin: 14.5px;
-    }
+  }
+  .wings {
+    height: 23px;
+    margin-top: 9px;
   }
 
-  .text {
-    background-color: #d8e6e9;
+  .single_card {
     width: 203px;
-    height: 71px;
-    border-radius: 0px 0px 15px 15px;
+    height: 214px;
+    margin: 14.5px;
   }
 
-  /* ``card_photos */
-  .circle {
-    border-radius: 15px 15px 0px 0px;
-  }
 
-  .chicken {
-    background-image: url(images/chicken.jpg);
-    width: 203px;
-    height: 143px;
-    background-size: 100%;
-    background-position: 25%;
-  }
+.text {
+  background-color: #d8e6e9;
+  width: 203px;
+  height: 71px;
+  border-radius: 0px 0px 15px 15px;
+}
 
-  .fries {
-    background-image: url(images/fries.jpg);
-    width: 203px;
-    height: 143px;
-    background-size: 100%;
-    background-position: 25%;
-  }
+/* ``card_photos */
+.circle {
+  border-radius: 15px 15px 0px 0px;
+}
 
-  .summer_salad {
-    background-image: url(images/salad.jpg);
-    width: 203px;
-    height: 143px;
-    background-size: cover;
-  }
+.chicken {
+  background-image: url(images/chicken.jpg);
+  width: 203px;
+  height: 143px;
+  background-size: 100%;
+  background-position: 25%;
+}
 
-  .bruschetta {
-    background-image: url(images/bruschetta.jpg);
-    width: 203px;
-    height: 143px;
-    background-size: cover;
-  }
+.fries {
+  background-image: url(images/fries.jpg);
+  width: 203px;
+  height: 143px;
+  background-size: 100%;
+  background-position: 25%;
+}
 
-  .crostini {
-    background-image: url(images/meore.jpg);
-    width: 203px;
-    height: 143px;
-    background-size: cover;
-  }
+.summer_salad {
+  background-image: url(images/salad.jpg);
+  width: 203px;
+  height: 143px;
+  background-size: cover;
+}
 
-  .rolls {
-    background-image: url(images/roll.jpg);
-    width: 203px;
-    height: 143px;
-    background-size: 100%;
-    background-position: 25%;
-  }
+.bruschetta {
+  background-image: url(images/bruschetta.jpg);
+  width: 203px;
+  height: 143px;
+  background-size: cover;
+}
+
+.crostini {
+  background-image: url(images/meore.jpg);
+  width: 203px;
+  height: 143px;
+  background-size: cover;
+}
+
+.rolls {
+  background-image: url(images/roll.jpg);
+  width: 203px;
+  height: 143px;
+  background-size: 100%;
+  background-position: 25%;
 }
 
 .select {
