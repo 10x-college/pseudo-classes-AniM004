@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POS MENU</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="frame">
+      <header>
+        <section class="header">
+          <div class="logo">
+            <a href="#">
+              <img src="POS.png" alt="logo" />
+            </a>
+          </div>
+          <div class="search_box">
+            <input
+              class="search"
+              type="search"
+              placeholder="Search product or any order..."
+            />
+          </div>
+          <div class="date">October 18th 2002, 10:00AM</div>
+          <!-- <input class="add" type="button" value="+ add table" /> -->
+          <button class="add" type="button">
+            <img src="add.png" alt="plus" />
+            <span>add table</span>
+          </button>
+        </section>
+      </header>
+      <main>
+        <!-- `` first row -->
+        <div class="card_wrapper">
+          <!-- `` chicken card -->
+          <article class="single_card">
+            <figure class="chicken circle"></figure>
+            <div class="text">
+              <h3>chicken wings</h3>
+              <div class="category_wrapper">
+                <p class="category">category:</p>
+                <img src="images/1.png" alt="spicy" class="wings" />
+              </div>
+            </div>
+          </article>
+          <!-- `` fries card -->
+          <article class="single_card">
+            <figure class="fries circle"></figure>
+            <div class="text">
+              <h3>french fries</h3>
+              <div class="category_wrapper">
+                <div class="category_wrapper">
+                    <p class="category">category:</p>
+                    <img src="images/g.png" alt="G category" class="wings"/>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- `` salad card -->
+          <article class="single_card">
+            <figure class="summer_salad circle"></figure>
+            <div class="text">
+              <h3>summer salad</h3>
+              <p class="category">category:</p>
+              <img src="images/salad.png" alt="" class="wings">
+            </div>
+          </article>
+          <article class="single_card">
+            <figure class="summer_salad circle"></figure>
+            <div class="text">
+              <h3>summer salad</h3>
+              <p class="category">category:</p>
+              <img src="images/salad.png" alt="" class="wings">
+            </div>
+          </article>
+        </div>
+        <!-- `` second row -->
+        <div class="card_wrapper">
+          <!-- `` bruschetta card -->
+          <article class="single_card">
+            <figure class="bruschetta circle"></figure>
+            <div class="text">
+              <h3>bruschetta</h3>
+              <div class="category_wrapper">
+                <p class="category">category:</p>
+                <img src="images/row 2.png" alt="spicy" class="wings" />
+              </div>
+            </div>
+          </article>
+          <!-- `` crostini card -->
+          <article class="single_card">
+            <figure class="crostini circle"></figure>
+            <div class="text">
+              <h3>crostini</h3>
+              <div class="category_wrapper">
+                <p class="category">category:</p>
+                <img src="images/row 2.png" alt="spicy" class="wings" />
+              </div>
+            </div>
+          </article>
+          <!-- `` crepe card -->
+          <article class="single_card">
+            <figure class="rolls circle"></figure>
+            <div class="text">
+              <h3>savory crêpe</h3>
+              <div class="category_wrapper">
+                <p class="category">category:</p>
+                <img src="images/row 2.png" alt="spicy" class="wings" />
+              </div>
+            </div>
+          </article>
+          <article class="single_card">
+            <figure class="rolls circle"></figure>
+            <div class="text">
+              <h3>savory crêpe</h3>
+              <div class="category_wrapper">
+                <p class="category">category:</p>
+                <img src="images/row 2.png" alt="spicy" class="wings" />
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- ``third_row -->
+        <div class="card_wrapper">
+          <!-- `` bruschetta card -->
+          <article class="single_card">
+            <figure class="bruschetta circle"></figure>
+            <div class="text">
+              <h3>bruschetta</h3>
+              <div class="category_wrapper">
+                <p class="category">category:</p>
+                <img src="images/row 2.png" alt="spicy" class="wings" />
+              </div>
+            </div>
+          </article>
+          <!-- `` crostini card -->
+          <article class="single_card">
+            <figure class="crostini circle"></figure>
+            <div class="text">
+              <h3>crostini</h3>
+              <div class="category_wrapper">
+                <p class="category">category:</p>
+                <img src="images/row 2.png" alt="spicy" class="wings" />
+              </div>
+            </div>
+          </article>
+          <!-- `` crepe card -->
+          <article class="single_card">
+            <figure class="rolls circle"></figure>
+            <div class="text">
+              <h3>savory crêpe</h3>
+              <div class="category_wrapper">
+                <p class="category">category:</p>
+                <img src="images/row 2.png" alt="spicy" class="wings" />
+              </div>
+            </div>
+          </article>
+          <article class="single_card">
+            <figure class="rolls circle"></figure>
+            <div class="text">
+              <h3>savory crêpe</h3>
+              <div class="category_wrapper">
+                <p class="category">category:</p>
+                <img src="images/row 2.png" alt="spicy" class="wings" />
+              </div>
+            </div>
+          </article>
+        </div>
+      </main>
+      <footer>
+        <div class="select">
+          <input type="checkbox" name="food" id="starter" />
+          <input type="checkbox" name="food" id="main_course" />
+          <input type="checkbox" name="food" id="drinks" />
+          <input type="checkbox" name="food" id="deserts" />
+
+          <label class="starter" for="starter">starter</label>
+          <label class="main_course" for="main_course">main course</label>
+          <label class="drinks" for="drinks">drinks</label>
+          <label class="drinks" for="deserts">deserts</label>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
